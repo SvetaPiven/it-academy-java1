@@ -1,5 +1,6 @@
 import java.util.Scanner;
-public class task4 {
+
+public class Task4 {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         int number;
@@ -8,7 +9,7 @@ public class task4 {
         in.close();
         int x = number / 100;
         int y = number % 10;
-        int z = (number / 10) %10;
+        int z = (number / 10) % 10;
         System.out.println("Result = " + (x + y + z));
     }
 }
