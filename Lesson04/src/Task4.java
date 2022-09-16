@@ -8,10 +8,18 @@ public class Task4 {
                 int mulTable = num1 * num2;
                 longText = num1 + " * " + num2 + " = " + mulTable;
                 switch (longText.length()) {
-                    case 9 -> System.out.print(longText + "      ");
-                    case 10 -> System.out.print(longText + "     ");
-                    case 11 -> System.out.print(longText + "    ");
-                    case 13 -> System.out.print(longText + "  ");
+                    case 9:
+                        System.out.print(longText + "      ");
+                        break;
+                    case 10:
+                        System.out.print(longText + "     ");
+                        break;
+                    case 11:
+                        System.out.print(longText + "    ");
+                        break;
+                    case 13:
+                        System.out.print(longText + "  ");
+                        break;
                 }
                 num2++;
             }
